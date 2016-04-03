@@ -5,7 +5,7 @@ html,body{
 }
 @font-face{
     font-family: 'Gotham';
-    src:url('GothamFree/GOTHAM-LIGHT.ttf') format("truetype");
+    src:url('GothamFree/GOTHAM-LIGHT.TTF') format("truetype");
 }
 @font-face{
 	font-family:'Pico';
