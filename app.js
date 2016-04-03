@@ -199,7 +199,7 @@ function orderByOccurrence(arr) {
   if (a.occurrences < b.occurrences) {
     return -1;
   }
-  // a must be equal to b
+  // a must be equal to the second
   return 0;
     })
     return c;
