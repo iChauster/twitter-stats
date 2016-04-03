@@ -1,0 +1,182 @@
+html,body{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+@font-face{
+    font-family: 'Gotham';
+    src:url('GothamFree/GOTHAM-LIGHT.ttf') format("truetype");
+}
+@font-face{
+	font-family:'Pico';
+	src:url('Pico_winTT/PICOBLA_.TTF') format("truetype");
+}
+em{
+	font-family:'Gotham';
+	font-size : 3em;
+}
+#bug{
+	font-family:'Pico';
+	font-size : 3em;
+}
+#fon{
+	font-family:'Gotham';
+	font-size:3em;
+	text-transform: none;
+}
+.container{
+	display: table;
+	position: relative;
+  	width:100%;
+  	height:100%;
+  	background-color: #00aced;
+  	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	background-size: cover;
+ 	-o-background-size: cover; 
+}
+.text-vertical-center{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color:white;
+	font-size:2em;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+@media(min-width:768px) {
+    .navbar-fixed-top {
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-fixed-top.navbar-shrink {
+        padding: 10px 0;
+    }
+
+    .navbar-fixed-top.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    background-color: #000;
+    color:#ffffff;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar a:focus {
+    outline: 0;
+}
+
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+}
+
+.navbar-default,
+.navbar-inverse {
+    border: 0;
+}
+
+.btn{
+	background-color: white;
+}
+a{
+	color:#0084b4;
+}
+a:hover{
+	color: white;
+}
+.btn:hover{
+	background-color:#0084b4;
+	color:white;
+}
+#words{
+	width:100%;
+}
+#listen{
+	text-align : center;
+}
+h1{
+	font-size : 50px;
+}
+h2{
+	font-size : 40px;
+}
+h3{
+	font-size : 30px;
+}
+#when{
+	width:100%;
+}
+#people{
+	padding:10px;
+	width:100%;
+	text-align: center;
+	background-color: black;
+	color:white;
+}
+.scroll-top {
+    z-index: 1049;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+nav.navbar.shrink {
+  max-height: 35px;
+}
+nav.navbar{
+  background-color:black;
+  height:34px;
+   // Animation
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+.scroll-top .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 28px;
+}
+#sw{
+	background-color: black;
+}
+#mostFavorited{
+	padding:20px;
+	background-color:#DB4C4C;
+	color:#202020;
+}
+#mostRetweeted{
+	padding:20px;
+	background-color:#19cf86;
+	color:#e3e3e3;
+}
+#hours{
+	width:100%;
+}
+.scroll-top .btn:focus {
+    outline: 0;
+   }

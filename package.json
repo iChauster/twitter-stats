@@ -1,0 +1,17 @@
+{
+  "name": "twitter-stats",
+  "version": "1.0.0",
+  "description": "Check your twitter stats!",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "passport-twitter": "^1.0.4",
+    "twitter": "^1.2.5"
+  }
+}
