@@ -16,7 +16,7 @@ var app = express()
 passport.use(new TwitterStrategy({
 	consumerKey : 'wCqMBOxGOYXOlBTn0oGqvSbaV',
 	consumerSecret : 'RBbhUhKDgli1yxH4hWXqnNMoSXbFiPQ3VRyO8bI4f0rRI68adT',
-	callbackURL : "http://localhost:3000/auth/twitter/callback"
+	callbackURL : "http://twitter-statistics.herokuapp.com/auth/twitter/callback"
 }, function(token,tokenSecret,profile,done){
 	client = new Twitter({
 		consumer_key: 'wCqMBOxGOYXOlBTn0oGqvSbaV',
