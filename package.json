@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Check your twitter stats!",
   "main": "app.js",
+  "engines": {
+    "node": "4.1.1"
+  },
   "scripts": {
     "test": "node app.js"
   },
