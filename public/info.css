@@ -37,6 +37,7 @@ em{
 }
 #center{
 	text-align: center;
+	font-size:2em;
 }
 .text-vertical-center{
 	display: table-cell;
