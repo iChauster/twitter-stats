@@ -35,6 +35,9 @@ em{
  	background-size: cover;
  	-o-background-size: cover; 
 }
+#center{
+	text-align: center;
+}
 .text-vertical-center{
 	display: table-cell;
 	text-align: center;
